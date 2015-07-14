@@ -1,0 +1,23 @@
+{
+  "name": "life-machine",
+  "version": "0.1.0",
+  "description": "A collection of your life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MountainBio/LifeMachine.git"
+  },
+  "author": "unionx <unionx@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MountainBio/LifeMachine/issues"
+  },
+  "homepage": "https://github.com/MountainBio/LifeMachine#readme",
+  "devDependencies": {
+    "express": "^4.13.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

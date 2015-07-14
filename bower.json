@@ -1,0 +1,19 @@
+{
+  "name": "LifeMachine",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MountainBio/LifeMachine",
+  "authors": [
+    "unionx <unionx@foxmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
