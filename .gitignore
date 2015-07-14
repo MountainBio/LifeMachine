@@ -55,7 +55,6 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
-app/lib/
 
 # Created by https://www.gitignore.io
 
