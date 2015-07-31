@@ -1,18 +1,6 @@
-# Life Machine
+# MountainBio Website
 
-A collection of your life.
-
-## Prerequisites
-
-You will need [Leiningen][] 2.0.0 or above installed.
-
-[leiningen]: https://github.com/technomancy/leiningen
-
-## Running
-
-To start a web server for the application, run:
-
-    lein ring server
+一个关注医疗事业和生物技术的网站
 
 ## License
 
