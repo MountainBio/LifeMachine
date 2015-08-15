@@ -1,8 +1,10 @@
 angular.module('LifeMachine', ['ngRoute', 'nvd3'])
 
 	.controller('HomeController', function($scope) {
-		
-	})
+    $scope.toBeContinue = function() {
+      swal("哎呀，这里还没做好");
+    };
+  })
 	.controller('TestController', function($scope) {
 		$scope.options = {
             chart: {

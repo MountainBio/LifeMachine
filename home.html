@@ -7,15 +7,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MountainBio</a>
+      <a class="navbar-brand" href="/#/">MountainBio</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="/#/">主页</a></li>
-        <li><a href="/#/#story">故事</a></li>
-        <li><a href="/#/#science">学术</a></li>
-        <li><a href="/#/#data">数据</a></li>
-        <li><a href="/#/#tool">工具</a></li>
+        <li><a href="javascript:void(0)" ng-click="toBeContinue()">故事</a></li>
+        <li><a href="javascript:void(0)" ng-click="toBeContinue()">学术</a></li>
+        <li><a href="javascript:void(0)" ng-click="toBeContinue()">数据</a></li>
+        <li><a href="javascript:void(0)" ng-click="toBeContinue()">工具</a></li>
         <li><a href="/#/test">关于</a></li>
       </ul>
     </div>
@@ -250,7 +249,9 @@
             </div>
           </div>
 
-          <button class="btn btn-success btn-xlg" type="submit">提交</button>
+          <button class="btn btn-success btn-xlg" type="button" ng-click="toBeContinue()">
+            提交
+          </button>
         </form>
       </div>
 
@@ -266,11 +267,8 @@
         </ul>
       </div>
 
-
     </div>
-
   </div>
-
 </section>
 
 <footer id="footer">
@@ -296,9 +294,9 @@
         <div class="col-md-5">
           <nav id="footer-menu">
             <ul>
-              <li><a href="#">常见问题</a></li>
-              <li><a href="#">网站介绍</a></li>
-              <li><a href="#">关于我们</a></li>
+              <li><a href="javascript:void(0)">常见问题</a></li>
+              <li><a href="javascript:void(0)">网站介绍</a></li>
+              <li><a href="javascript:void(0)">关于我们</a></li>
             </ul>
           </nav>
         </div>
