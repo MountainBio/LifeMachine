@@ -4,6 +4,38 @@ angular.module('LifeMachine', ['ngRoute', 'nvd3'])
     $scope.toBeContinue = function() {
       swal("哎呀，这里还没做好");
     };
+
+    $scope.news = [
+      {
+        title: "革命性基因编辑神器CRISPR成科学界新宠",
+        content: "CRISPR技术作为一种最新涌现的基因组编辑工具，能够完成RNA导向的DNA识别及编辑，" +
+        "为构建更高效的基因定点修饰技术提供了全新的平台，受到众多科学家的追捧。",
+        link: "http://www.biodiscover.com/topic/technology/301.html"
+      },
+      {
+        title: "核酸检测革命：可替代PCR的犀利技术——RPA",
+        content: "重组酶聚合酶扩增（Recombinase Polymerase Amplification，RPA），" +
+        "被称为是可以替代PCR的核酸检测技术。",
+        link: "http://www.biodiscover.com/topic/technology/310.html"
+      },
+      {
+        title: "基因测序的下一个应用爆发点在哪里？",
+        content: "我们正处在最好的时代，通过医学大数据的深入分析，有效促进治疗方案的快速进化。",
+        link: "http://www.biodiscover.com/talk/live/103891.html"
+      },
+      {
+        title: "第十届国际基因组学大会 (ICG-10)",
+        content: "由华大基因举办的第十届国际基因组学大会（ICG-10，www.icg-10.org）" +
+        "将于2015年10月22-25日在中国深圳召开。",
+        link: "http://www.biodiscover.com/event/exhibition/675.html"
+      }
+    ];
+
+    $scope.hots = [
+      "艾滋病数据一览",
+      "中国基因侧护行业报告",
+      "中国卫生经济的发展分析"
+    ]
   })
 	.controller('TestController', function($scope) {
 		$scope.options = {
